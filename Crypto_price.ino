@@ -78,6 +78,9 @@ int httpCode = 0;
 DynamicJsonDocument doc(1000);
 DeserializationError err;
 
+
+/// Loop principal
+// este codigo permite imprimir en pantalla OLED o a traves de una consola serial
 void loop()
 {
     delay(10000);
